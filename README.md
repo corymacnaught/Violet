@@ -1,6 +1,6 @@
 # Violet
 
-#### Front-end: HTML, CSS, JavaScript, JQuery
+#### Front-end: #### HTML, CSS, JavaScript, JQuery
 #### Back-end: PHP
 #### Server: Apache
 #### Database: MySQL
