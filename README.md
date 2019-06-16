@@ -1,7 +1,7 @@
 # Violet
 
-#### Front-end: HTML, CSS, JavaScript, JQuery
-#### Back-end: PHP
+#### Frontend: HTML, CSS, JavaScript, JQuery
+#### Backend: PHP
 #### Server: Apache
 #### Database: MySQL
 #### Responsive: Non-responsive (use 1600x900 for best results)
