@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+	<head>
+		<title>Rechercher Vos Commandes</title>
+		<link rel="stylesheet" href="/Devoir1/Styles/styleMesCommandes5.css"/>
+		<script src="jquery.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="bodyHeader">
+				<a href="/Devoir1">
+					<img id="imgGrapes" src="/Devoir1/Images/handDrawnGrape.png" alt="Logo">
+				</a>
+				<h1 id="violet">Violet</h1>
+				<a href="/Devoir1/Telechargements/commander.html">
+					<h2 id="commander">Commander</h2>
+				</a>
+				<a href="/Devoir1">
+					<h2 id="commandes">Mes Commandes</h2>
+				</a>
+			</div>
+		</header>
+		<div class="bodyBody">
+			<header id="bodyBodyHeader">
+			</header>
+			<div class="commandeForm">
+				<header id="commandeFormHeader">
+					<h3>Voir Vos Commandes</h3>
+				</header>
+				<form id="commande" method="POST" action="/Devoir1/BusinessLayer/mesCommandes.php">
+					<h4>
+						<input name="identification" id="identification" type="text" placeholder="Identite"> </input> <br>
+						<input name="prenom" id="prenom" type="text" placeholder="Prenom"> </input> <br>
+						<input name="nom" id="nom" type="text" placeholder="Nom"> </input> <br>
+					</h4>
+					<h4>
+						<input type="submit" class= "buttonconfirm" value="Soumettre"/>
+					</h4>
+				</form>
+				<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+				<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+				<script src="/Devoir1/JavaScript/confirmeMesCommande2.js"></script>
+				<footer id="commandeFormFooter">
+					<h5>Vous n'avez pas de commande? <a id="ici" href="/Devoir1/Telechargements/commander.html">Cliquez ici pour créer une.</a></h5>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

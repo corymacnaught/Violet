@@ -1,0 +1,136 @@
+h2
+{
+	float: left;
+	text-align: center;
+	padding: 20px;
+	margin-left: 50px;
+	font-size: 20px;
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+h3
+{
+	text-align: center;
+	font-size: 16px;
+	margin: 0px;
+	margin-top: 10px;
+}
+
+h4
+{
+	text-align: center;
+	font-size: 16px;
+	margin: 0px;
+	margin-top: 10px;
+}
+
+a
+{
+	color: black;
+}
+
+body
+{
+	background: url("/Devoir1/Images/grapeVine.jpg") no-repeat;
+	background-size: 100%;
+	width: 80%;
+	margin-left: 10%;
+	border: 1px solid #eb2432;
+}
+
+header
+{
+}
+
+.bodyHeader
+{
+	background-color: #eb2432;
+	height: 96px;
+	padding: 5px;
+}
+
+.bodyBody
+{
+	background: rgba(0, 0, 0, 0.3);
+	height: 670px;
+}
+
+.bodyBodyHeader
+{
+	height: 50px;
+}
+
+#imgGrapes
+{
+	float: left;
+	width: 10%;
+	height: 100px;
+}
+
+#violet
+{
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Arizonia';
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+}
+
+.commandeSheet
+{
+	width: 702px;
+	margin-left: 300px;
+	border: 1px solid #eb2432;
+}
+
+.commandeSheetHeader
+{
+	height: 40px;
+	background-color: #eb2432;
+}
+
+#commandeSheetHeaderDescription
+{
+	float: left;
+	width: 300px;
+}
+
+#commandeSheetHeaderDate
+{
+	float: left;
+	width: 200px;
+}
+
+#commandeSheetHeaderStatut
+{
+	float: left;
+	width: 200px;
+}
+
+.commandeSheetRows
+{
+	height: 40px;
+}
+
+#commandeSheetRowsDescription
+{
+	float: left;
+	width: 300px;
+}
+
+#commandeSheetRowsDate
+{
+	float: left;
+	width: 200px;
+}
+
+#commandeSheetRowsStatut
+{
+	float: left;
+	width: 200px;
+}
+
+@font-face {
+    font-family: 'Arizonia';
+	src: url('http://fonts.googleapis.com/css?family=Arizonia');
+}

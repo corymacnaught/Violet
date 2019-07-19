@@ -1,0 +1,119 @@
+h2
+{
+	float: left;
+	text-align: center;
+	padding: 20px;
+	margin-left: 50px;
+	font-size: 20px;
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+}
+
+h3
+{
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+	font-size: 20px;
+}
+
+h4
+{
+	text-align: center;
+	font-size: 16px;
+}
+
+h5
+{
+	text-align: center;
+	font-size: 16px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+#commander
+{
+	color: black;
+}
+
+#commandes
+{
+	color: black;
+}
+
+body
+{
+	background: url("/Devoir1/Images/grapeVine.jpg") no-repeat;
+	background-size: 100%;
+	width: 80%;
+	margin-left: 10%;
+	border: 1px solid #eb2432;
+}
+
+header
+{
+}
+
+.bodyHeader
+{
+	background-color: #eb2432;
+	height: 96px;
+	padding: 5px;
+}
+
+.bodyBody
+{
+	background: rgba(0, 0, 0, 0.3);
+	height: 670px;;
+}
+
+#imgGrapes
+{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+#violet
+{
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Arizonia';
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+	margin-top: 25px;
+}
+
+#bodyBodyHeader
+{
+	height: 50px;
+}
+
+.commandeForm
+{
+	float: left;
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 0px;
+	height:85%;
+	width: 80%;
+	background-color: #ffffff;
+	border: 1px solid #eb2432;
+}
+
+#commandeFormHeader
+{
+	padding: 1px;
+	background-color: #eb2432;
+}
+
+.logo
+{
+	float: right;
+	width: 250px;
+}
+
+@font-face {
+    font-family: 'Arizonia';
+	src: url('http://fonts.googleapis.com/css?family=Arizonia');
+}

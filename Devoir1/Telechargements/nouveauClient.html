@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+	<head>
+		<title>Créé un Compte</title>
+		<link rel="stylesheet" href="/Devoir1/Styles/styleNouveauClient5.css"/>
+		<script src="jquery.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="bodyHeader">
+				<a href="/Devoir1">
+					<img id="imgGrapes" src="/Devoir1/Images/handDrawnGrape.png" alt="Logo">
+				</a>
+				<h1 id="violet">Violet</h1>
+				<a href="/Devoir1/Telechargements/commander.html">
+					<h2 id="commander">Commander</h2>
+				</a>
+				<a href="/Devoir1/Telechargements/mesCommandes.html">
+					<h2 id="commandes">Mes Commandes</h2>
+				</a>
+			</div>
+		</header>
+		<div class="bodyBody">
+			<header id="bodyBodyHeader">
+			</header>
+			<div class="commandeForm">
+				<header id="commandeFormHeader">
+					<h3>Nouveau Client</h3>
+				</header>
+				<form id="nouveauClient" method="POST" action="/Devoir1/BusinessLayer/nouveauClientSubmit.php">
+					<h4>
+						<input name="prenom" id="prenom" type="text" placeholder="Prenom"> </input> <br>
+						<input name="nom" id="nom" type="text" placeholder="Nom"> </input> <br>
+						<input name="dateDeNaissance" id="dateDeNaissance" type="text" placeholder="Date de Naissance - AAAA/MM/JJ"> </input> <br>
+						<input name="adresse" id="adresse" type="text" placeholder="Adresse"> </input> <br>
+						<input name="telephone" id="telephone" type="text" placeholder="Numéro de Téléphone"> </input>
+					</h4>
+					<h4>
+						<input type="submit" class= "buttonconfirm" value="Soumettre"/>
+					</h4>
+				</form>
+			</div>
+			<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+			<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+			<script src="/Devoir1/JavaScript/confirmeNouveauClient1.js"></script>
+		</div>
+	</body>
+</html>
